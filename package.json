@@ -1,0 +1,22 @@
+{
+  "name": "web-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "cross-env NODE_ENV=production nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0",
+    "express": "4.18.2",
+    "mongoose": "^8.16.0",
+    "nodemon": "^3.1.10"
+  }
+}
