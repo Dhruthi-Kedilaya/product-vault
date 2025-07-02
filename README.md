@@ -20,7 +20,7 @@
 |-----------|-----------|-------------------|
 | React     | Node.js   | Zustand (state)   |
 | Bootstrap | Express   | dotenv            |
-| Chakra    | MongoDB   | nodemon           |
+|           | MongoDB   | nodemon           |
 
 ---
 
@@ -63,14 +63,8 @@
 ### 🏠 Home Page
 ![Home Page](screenshots/home-page.png)
 
-### ➕ Create Page
-![Create Page](screenshots/create-page.png)
-
 ### 🌙 Dark Mode Enabled
 ![Dark Mode](screenshots/dark-mode.png)
 
-### 📱 Responsive Layout
+### 📱 Responsive Layout (+create page)
 ![Responsive Layout](screenshots/responsive.png)
-
-### 🔁 Update Product Page
-![Update Page](screenshots/update-page.png)
